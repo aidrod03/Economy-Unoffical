@@ -39,7 +39,7 @@ use onebone\economyapi\event\account\CreateAccountEvent;
 use onebone\economyapi\task\SaveTask;
 
 class EconomyAPI extends PluginBase implements Listener{
-	const API_VERSION = 3;
+	const API_VERSION = 4;
 	const PACKAGE_VERSION = "5.7";
 
 	const RET_NO_ACCOUNT = -3;
